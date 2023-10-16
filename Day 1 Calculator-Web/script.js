@@ -12,6 +12,7 @@ function LimparC(){
 
 function LimparAC(){
     document.getElementById('txtAc').innerHTML = ""
+    document.getElementById('txtNum').innerHTML = ""
 }
 
 function Back(){
