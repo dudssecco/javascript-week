@@ -66,8 +66,12 @@ input.type{
     border-radius: 25px;
     border: 2px solid #d2d2d2;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.em;
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
+
+
 
 input.btn{
     padding: 5x;
@@ -85,6 +89,14 @@ input.btn:hover{
     background-color: white;
     transition: 0.7s;
 }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
 
 
 
