@@ -20,10 +20,11 @@ h1{
 }
 
 i{
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: bolder;
     color: #ffffff;
     padding-top: 20px;
+    padding-inline: 5px;
 }
 
 div.container{
@@ -44,11 +45,14 @@ div.box{
     align-items: center;
     padding: 10px;
     border-radius: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 div.btn-convert{
-    margin: 0px 10px;
-    margin-bottom: 50px;
+    margin: 10px auto 50px auto;
+    width: 150px;
+    height: 50px;
+    
 }
 
 label{
@@ -75,18 +79,21 @@ input.type{
 
 input.btn{
     padding: 5x;
-    margin: 10px;
+    margin: 10px 0px;
     width: 100px;
-    height: 35px;
+    height: 30px;
     border-radius: 25px;
-    border: 2px solid #d2d2d2;
-    color: #000000;
-    font-size: 1em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 2px solid #ffffff0c;
+    color: #ffffff;
+    background-color: #ffffff36;
+    font-size: 15px;
+    font-weight: 600;
     cursor: pointer;
 }
 
 input.btn:hover{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.329);
     transition: 0.7s;
 }
 
