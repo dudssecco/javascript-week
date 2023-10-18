@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Border Radius</title>
+    <style>
+        div.box{
+            background-color: transparent;
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            border: 10px solid rgb(118, 185, 137);
+        
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        Border Radius Previewer
+    </h1>
+
+    <section class="container">
+
+        <div class="box"></div>
+
+        <div class="input-box">
+
+            <div class="space-box">
+                <label for="itopleft">Top-Left</label>
+                <input class="left" type="number" name="topleft" id="itopleft">
+                <span>%</span>
+            </div>
+
+            <div class="space-box">
+                <label for="itopright">Top-Right</label>
+                <input type="number" name="topright" id="itopright">
+                <span>%</span>
+            </div>
+
+            <div class="space-box">
+                <label for="ibotright">Bot-Right</label>
+                <input type="number" name="botright" id="ibotright">
+                <span>%</span>
+            </div>
+
+            <div class="space-box">
+                <label for="ibotleft">Bot-Left</label>
+                <input class="left" type="number" name="botleft" id="ibotleft">
+                <span>%</span>
+            </div>
+
+            <div class="space-box">
+                <button onclick="AttPreviewer()">Show</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
