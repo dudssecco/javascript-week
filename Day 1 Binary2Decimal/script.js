@@ -1,3 +1,28 @@
+function LimparBtwoD(){
+
+    document.getElementById('ibinario').value = ""
+    document.getElementById('idecimal').value = ""
+
+}
+
+function LimparDtwoH(){
+
+    document.getElementById('idecimal2').value = ""
+    document.getElementById('ihexa').value = ""
+
+}
+
+function LimparBtwoH(){
+
+    document.getElementById('ibinario2').value = ""
+    document.getElementById('ihexa2').value = ""
+
+}
+
+
+
+
+
 function BtwoD(){
         
     // Verification
@@ -30,7 +55,6 @@ function BtwoD(){
         document.getElementById('ibinario').value = numB
 
     }
-
 }
 
 function DtwoH(){
@@ -65,7 +89,6 @@ function DtwoH(){
         document.getElementById('idecimal2').value = numD
 
     }
-
 }
 
 function BtwoH(){
@@ -102,5 +125,4 @@ function BtwoH(){
         document.getElementById('ibinario2').value = numB
 
     }
-
 }
