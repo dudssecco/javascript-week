@@ -1,21 +1,14 @@
-let box = document.getElementById('box')
+function show(){
 
-let radiusTL = document.getElementById('itopleft').value
-let radiusTR = document.getElementById('itopright')
-let radiusBL = document.getElementById('ibotleft')
-let radiusBR = document.getElementById('ibotright')
+    var tl = document.getElementById('itopleft').value
+    var tr = document.getElementById('itopright').value
+    var br = document.getElementById('ibotright').value
+    var bl = document.getElementById('ibotleft').value
 
+    var prorety = "border-radius: " 
+    + tl + "% " + tr + "% " 
+    + br + "% " + bl + "%;"
 
-
-function AttPreviewer(){
-
-    radiusTL = String(radiusTL)
-
-
-    let propriedade = "border-radius: " + radiusTL + "px " + radiusTR + "px " + radiusBR + "px " + radiusBL + "px;"
-    let propriedade = "border-radius: " + radiusTL + "px " + radiusTR + "px " + radiusBR + "px " + radiusBL + "px;"
-
-    box.style.cssText = propriedade
-    console.log(propriedade)
-
+    var box = document.getElementById('box')
+    box.style = prorety
 }
