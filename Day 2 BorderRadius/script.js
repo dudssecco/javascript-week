@@ -12,3 +12,4 @@ function show(){
     var box = document.getElementById('box')
     box.style = prorety
 }
+
