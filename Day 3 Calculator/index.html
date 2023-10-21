@@ -20,8 +20,8 @@
                 </div>
 
                 <div class="btn">
-                    <button id="btn-c" class="otherC" onclick="LimparC()">C</button>
-                    <button class="other" onclick="LimparAC()">AC</button>
+                    <button class="otherC" onclick="LimparAC()">AC</button>
+                    <button onclick="Back()"><i class="bi bi-arrow-left-short"></i></button>
                     <button class="other" onclick="AddQueue(' / ')">/</button>
                 </div>
 
@@ -47,10 +47,9 @@
                 </div>
 
                 <div class="btn-end">
+                    <button class="otherC" onclick="AddQueue('0')">0</button>
                     <button onclick="AddQueue('.')">.</button>
-                    <button onclick="AddQueue('0')">0</button>
-                    <button onclick="Back()"><i class="bi bi-arrow-left-short"></i></button>
-                    <button class="other" onclick="Same()">=</button>
+                    <button onclick="Same()">=</button>
                 </div>
             </div>
         </div>
