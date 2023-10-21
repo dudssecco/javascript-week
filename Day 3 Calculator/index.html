@@ -20,37 +20,37 @@
                 </div>
 
                 <div class="btn">
-                    <button id="btn-c" class="otherC">C</button>
-                    <button class="other">AC</button>
-                    <button class="other">/</button>
+                    <button id="btn-c" class="otherC" onclick="LimparC()">C</button>
+                    <button class="other" onclick="LimparAC()">AC</button>
+                    <button class="other" onclick="AddQueue(' / ')">/</button>
                 </div>
 
                 <div class="btn">
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <button class="other">x</button>
+                    <button onclick="AddQueue('7')">7</button>
+                    <button onclick="AddQueue('8')">8</button>
+                    <button onclick="AddQueue('9')">9</button>
+                    <button class="other" onclick="AddQueue(' * ')">x</button>
                 </div>
 
                 <div class="btn">
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button class="other">-</button>
+                    <button onclick="AddQueue('4')">4</button>
+                    <button onclick="AddQueue('5')">5</button>
+                    <button onclick="AddQueue('6')">6</button>
+                    <button class="other" onclick="AddQueue(' - ')">-</button>
                 </div>
 
                 <div class="btn">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button class="other">+</button>
+                    <button onclick="AddQueue('1')">1</button>
+                    <button onclick="AddQueue('2')">2</button>
+                    <button onclick="AddQueue('3')">3</button>
+                    <button class="other" onclick="AddQueue(' + ')">+</button>
                 </div>
 
                 <div class="btn-end">
-                    <button>.</button>
-                    <button>0</button>
-                    <button><i class="bi bi-arrow-left-short"></i></button>
-                    <button class="other">=</button>
+                    <button onclick="AddQueue('.')">.</button>
+                    <button onclick="AddQueue('0')">0</button>
+                    <button onclick="Back()"><i class="bi bi-arrow-left-short"></i></button>
+                    <button class="other" onclick="Same()">=</button>
                 </div>
             </div>
         </div>
