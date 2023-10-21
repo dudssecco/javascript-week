@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/lt-neo-rounded');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'LT Neo Rounded', sans-serif;
+}
+
+body{
+    background: #E6DADA; 
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA); 
+    background: linear-gradient(to right, #274046, #E6DADA); 
+}
+
+.container{
+    background-color: #3a4655;
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    margin-top: 220px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.space-calc{
+    background-color: transparent;
+    height: 450px;  
+}
+
+.text{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.text p{
+    width: 260px;
+    background-color: transparent;
+    border-style: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: #6c7682;
+    text-align: end;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+hr{
+    margin: 10px;
+    margin-top: 3px;
+    border-color: #6c7682;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.input-num{
+    padding: 5px;
+    text-align: center;
+}
+
+.input-num p{
+    width: 240px;
+    background-color: transparent;
+    border-style: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    text-align: end;
+    height: 50px;
+    font-size: 28px;
+    color: #6c7682;
+    margin-left: 30px;
+}
+
+p::-webkit-outer-spin-button,
+p::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn, .btn-end{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1px;
+    justify-content: space-between;
+}
+
+.btn-end{
+    margin-bottom: 50px;
+}
+
+button{
+    height: 61px;
+    width: 70px;
+    margin-top: 4px;
+    background-color: #425062;
+    color: #ffffff;
+    border-style: none;
+    font-size: 18px;
+}
+
+.c{
+    color: white;
+}
+
+.other{
+    color: #aeb3ba;
+    background-color: #404d5e;
+}
+
+.otherC{
+    color: #aeb3ba;
+    background-color: #404d5e;
+    width: 147px;
+}
+
+button:hover{
+    background: #5a6a88;
+    transition: 0.3s;
+}
