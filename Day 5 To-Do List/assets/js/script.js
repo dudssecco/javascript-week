@@ -1,5 +1,3 @@
-   
-    
     const inputText = document.querySelector('.input-task')
     const addButton = document.querySelector('.add-task')
     const boxTasks = document.querySelector('.box-tasks')
@@ -22,7 +20,7 @@
         divControl.appendChild(btnApagar)
 
         limpaInput()
-        saveTask() 
+        saveTask()
     }
 
 
@@ -111,25 +109,4 @@
         }
     })
 
-    
-addTask()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    addTask()
