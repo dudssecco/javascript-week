@@ -70,7 +70,7 @@ function saveTask(){
 
     const taskJSON = JSON.stringify(liList)
     localStorage.setItem('tasksaved', taskJSON)
-
+}
 
 function addTask(){
     const tasks = localStorage.getItem('tasksaved')
