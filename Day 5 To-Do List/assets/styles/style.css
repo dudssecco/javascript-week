@@ -1,0 +1,120 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+
+.container{
+    width: 600px;
+    margin: 200px auto;
+}
+
+
+
+
+/* Create a Box Task */
+
+.box-create{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-create input{
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    width: 250px;
+    color: rgb(117, 117, 117);
+}
+
+.box-create input:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.box-create button{
+    font-size: 1rem;
+    width: 70px;
+    padding: 5px;
+    color: white;
+    background-color: #6a5bd8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-create button:hover{
+    background-color: #7d6cfa;
+    transition: 0.5s;
+}
+
+.box-create button:active{
+    scale: 0.95;
+    transition: 0.2s;
+}
+
+
+
+/* Create a List Task */
+
+.box-tasks{
+    margin: auto;
+    margin-top: 70px;
+    width: 600px;
+    padding: 30px 25px;
+}
+
+.task{
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    padding: 30px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task button{
+    font-size: 1rem;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    color: white;
+    background-color: #6a5bd8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task button:hover{
+    background-color: #7d6cfa;
+    transition: 0.5s;
+}
+
+.task button:active{
+    scale: 0.95;
+    transition: 0.2s;
+}
+
