@@ -98,6 +98,7 @@ inputText.addEventListener('keypress', function(event){
         criaTask(inputText.value)
     }
 })
+
 document.addEventListener('click', function(e){
     const Task = document.querySelector('.task')
     const el = e.target
