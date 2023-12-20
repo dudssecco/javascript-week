@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Day 8 | Validation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Formulário de Cadastro</h1>
+
+    <p>
+      <ul>
+        <li>Nenhum campo pode estar vazio.</li>
+        <li>Usuário só poderá conter letras e/ou números</li>
+        <li>Usuário deve conter entre 3 e 12 caracteres</li>
+        <li>Senha deve conter entre 6 e 12 caracteres</li>
+      </ul>
+    </p>
+
+    <form action="/" method="POST" class="formulario">
+      <p>
+        <label for="idnome">Nome:</label> 
+        <input type="text" name="nome" id="idnome" class="validar">
+      </p>
+      <p>
+        <label for="idsobrenome">Sobrenome:</label> 
+        <input type="text" name="sobrenome" id="idsobrenome" class="validar">
+      </p>
+      <p>
+        <label for="idcpf">CPF:</label> 
+        <input type="text" name="cpf" id="idcpf" class="validar cpf">
+      </p>
+      <p>
+        <label for="idusuario">Usuário:</label> 
+        <input type="text" name="usuario" id="idusuario" class="validar usuario">
+      </p>
+      <p>
+        <label for="idsenha">Senha:</label> 
+        <input type="password" name="senha" id="idsenha" class="validar senha">
+      </p>
+      <p>
+        <label for="idrepetir-senha">Repetir Senha:</label> 
+        <input type="password" name="repetir-senha" id="idrepetir-senha" class="validar conf-senha">
+      </p>
+      <p>
+        <input type="submit" value="Enviar" class="btn">
+      </p>
+    </form>
+  </section>
+
+  <script src="ValidaCPF.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
